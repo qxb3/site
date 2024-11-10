@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Iosevka';
+}
+
+@layer base {
+  a {
+    @apply text-blue-500 underline italic;
+  }
+}
+
+@layer components {
+  .theme {
+    @apply bg-surface-light text-black dark:bg-surface-dark dark:text-white;
+  }
+
+  .scale-anim {
+    @apply transform transition-transform duration-500 hover:scale-110;
+  }
+}
