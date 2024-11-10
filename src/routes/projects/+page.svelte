@@ -1,4 +1,6 @@
 <script>
+  import { base } from '$app/paths'
+
   function randomTxtColor() {
     const colors = [
       'text-primary', 'text-secondary', 'text-tertiary',
@@ -78,7 +80,7 @@
         target="_blank"
         class="block scale-anim bg-gray-950 rounded-md border-2 border-secondary shadow shadow-secondary no-underline not-italic"
       >
-        <img src={project.image} alt={project.name} />
+        <img src="{base}{project.image}" alt={project.name} />
 
         <div class="p-4">
           <h1 class="text-2xl font-bold {randomTxtColor()}">* {project.name}</h1>

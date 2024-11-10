@@ -1,5 +1,6 @@
 <script>
   let { data } = $props()
+  import { base } from '$app/paths'
 
   let navLinks = $state([
     { active: false, href: '/', text: 'Home', color: 'text-primary' },
@@ -23,7 +24,7 @@
 <nav class="theme border-b-2 border-primary-light dark:border-primary-dark p-4 shadow-sm shadow-primary-light flex justify-between items-center">
   <div class="transform transition-transform duration-500 hover:scale-110">
     <a
-      href="/"
+      href="{base}/"
       class="!lowercase !no-underline !font-bold !text-secondary !text-xl transition-colors duration-500 hover:!text-primary"
     >
       <div class="flex items-center">
@@ -39,7 +40,7 @@
     {#each navLinks as link}
       <li>
         <a
-          href={link.href}
+          href="{base}{link.href}"
           class:!underline={link.active}
           class="{link.color}"
         >
