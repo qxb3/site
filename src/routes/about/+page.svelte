@@ -1,5 +1,5 @@
 <div class="h-screen grid place-items-center">
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-16 px-16 py-32 text-center">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-16 px-24 py-32 md:py-0 text-center">
     <div>
       <h1 class="text-5xl font-bold text-primary">Who am i?</h1>
 
@@ -25,7 +25,7 @@
     <div>
       <h1 class="text-5xl font-bold text-tertiary">Stuff</h1>
 
-      <ul class="list-disc mt-8 px-16 text-start">
+      <ul class="list-disc mt-8 text-start">
         <li class="mt-4">
           <p class="font-bold">Dev Setup</p>
 
