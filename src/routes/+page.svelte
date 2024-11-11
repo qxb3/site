@@ -43,9 +43,9 @@
   ]
 </script>
 
-<div class="grid place-items-center py-44">
+<div class="h-screen grid place-items-center">
   <div>
-    <div class="text-center mt-4">
+    <div class="text-center">
       <h1 class="text-8xl font-bold">
         <span class="text-primary">I'm</span>
         <span class="text-secondary">qxb3</span>
@@ -53,7 +53,7 @@
       </h1>
     </div>
 
-    <div class="flex justify-evenly items-center mt-4">
+    <div class="flex justify-evenly items-center mt-4 mb-8">
       {#each socialLinks as link}
         <a
           href={link.href}

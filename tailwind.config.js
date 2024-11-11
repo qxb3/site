@@ -8,10 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        surface: {
-          light: colors.gray[50],
-          dark: colors.gray[900]
-        },
+        surface: colors.gray[900],
         primary: colors.sky[500],
         secondary: colors.emerald[500],
         tertiary: colors.rose[500],

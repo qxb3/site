@@ -12,8 +12,8 @@
 {#key data.url}
   <div
     class="theme"
-    in:fly={{ x: -window.innerWidth, duration: window.innerWidth / 2, delay: 400 }}
-    out:fly={{ x: window.innerWidth, duration: window.innerWidth / 2 }}
+    in:fly={{ y: -window.innerHeight * 2, duration: window.innerHeight, delay: window.innerHeight }}
+    out:fly={{ y: window.innerHeight * 2, duration: window.innerHeight }}
   >
     {@render children()}
   </div>

@@ -14,7 +14,7 @@
 
 @layer components {
   .theme {
-    @apply bg-surface-light text-black dark:bg-surface-dark dark:text-white;
+    @apply bg-surface text-white;
   }
 
   .scale-anim {
