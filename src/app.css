@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Iosevka';
-}
-
 @layer base {
+  body {
+    font-family: 'Cascadia Code';
+  }
+
   a {
     @apply text-blue-500 underline italic;
   }
